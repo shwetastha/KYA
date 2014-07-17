@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back4" >
+
+<TextView android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerInParent="false"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="60dip"
+android:text="Know Your Alphabet" android:textSize="10pt"
+android:id="@+id/title"
+android:textColor="#000000"></TextView>
+
+<Button android:layout_height="wrap_content"
+android:id="@+id/learn"
+android:layout_centerInParent="true"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="50dip" android:text="Learn"
+android:layout_width="200dip"
+android:textSize="30dp"
+
+android:layout_below="@+id/title"></Button>
+
+<Button android:layout_height="wrap_content"
+android:layout_centerInParent="true"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="10dip" android:text="Test"
+android:layout_width="200dip" android:id="@+id/test"
+android:layout_below="@+id/learn"
+android:textSize="30dp"
+></Button>
+
+<Button android:layout_below="@+id/test"
+android:layout_height="wrap_content"
+android:layout_centerInParent="true"
+android:layout_centerHorizontal="true"
+android:layout_marginTop="10dip"
+android:text="Exit" android:layout_width="200dip"
+android:id="@+id/exit"
+android:textSize="30dp"></Button>
+
+</RelativeLayout>

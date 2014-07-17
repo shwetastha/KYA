@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="227dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/a0" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button7"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/frameLayout2"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/arrow"
+        android:visibility="visible"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <Button
+        android:id="@+id/button6"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/button7"
+        android:background="@drawable/arrowprev" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frameLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:text="@string/first"
+            android:textSize="40dp"
+            android:textStyle="bold" 
+             />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:text="@string/second"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:text="@string/third"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:text="@string/fourth"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/lastButton"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:text="@string/fifth"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

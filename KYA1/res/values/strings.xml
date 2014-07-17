@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">KYA1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Learn</string>
+	<string name="first">A</string>
+    <string name="second">P</string>
+    <string name="third">P</string>
+    <string name="fourth">L</string>
+    <string name="fifth">E</string>
+</resources>

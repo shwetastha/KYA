@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="221dp"
+            android:layout_height="233dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/apple" />
+
+    </FrameLayout>
+
+   <TableLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:layout_below="@+id/frameLayout2"
+	android:layout_marginTop="50dp"
+	
+	  >
+
+       <TableRow android:gravity="center" 
+           		
+           		 >
+
+           <TextView
+               android:id="@+id/key1"
+               android:layout_gravity="center"
+               android:text=" _ "
+               android:textSize="40dp" />
+
+           <TextView
+               android:id="@+id/key2"
+       
+               android:textSize="40dp"
+               android:layout_gravity="center"
+               android:text=" _ " />
+           <TextView
+                android:id="@+id/key3"
+                android:layout_width="fill_parent"
+               android:layout_height="wrap_content" 
+               android:textSize="40dp"
+               android:layout_gravity="center"
+               android:text=" _ " />
+
+           <TextView
+                android:id="@+id/key4"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content" 
+               android:textSize="40dp"
+               android:layout_gravity="center"
+               android:text=" _ " />
+           <TextView
+                android:id="@+id/key5"
+                android:layout_width="fill_parent"
+               android:layout_height="wrap_content" 
+               android:textSize="40dp"
+               android:layout_gravity="center"
+               android:text=" _ " />
+
+       </TableRow>
+
+       <TableRow
+            android:gravity="center">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textSize="30dp"
+                android:text="S"
+                
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/second"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="B"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button4"
+               android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="X"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/fifth"
+                 android:textSize="30dp"
+                android:textStyle="bold" />
+            
+       </TableRow>
+       
+ 		 <TableRow
+            android:gravity="center">
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textSize="30dp"
+                android:text="@string/first"
+                
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="M"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/third"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button9"
+               android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/fourth"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="J"
+                 android:textSize="30dp"
+                android:textStyle="bold" />
+            
+       </TableRow>
+       
+    </TableLayout>
+
+   
+
+</RelativeLayout>
